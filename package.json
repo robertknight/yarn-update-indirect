@@ -1,0 +1,16 @@
+{
+  "name": "yarn-update-indirect",
+  "version": "1.0.0",
+  "description": "Update indirect dependencies in Yarn lockfiles",
+  "type": "module",
+  "module": "index.js",
+  "repository": "https://github.com/robertknight/yarn-update-indirect.git",
+  "author": "Robert Knight <robertknight@gmail.com>",
+  "license": "BSD-2-Clause",
+  "packageManager": "yarn@4.0.0",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "js-yaml": "^4.1.0"
+  },
+  "bin": "./index.js"
+}
