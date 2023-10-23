@@ -15,6 +15,9 @@ The tool works in two steps:
  2. Re-run `yarn install` to refresh the lockfile and add resolutions for
     the current versions.
 
+**This tool is designed for Yarn v3+ (aka. "yarn modern"). It does not work
+with Yarn classic (v1.x).**
+
 ## Usage
 
 As an example, suppose your project has indirect dependencies on "foo" and "bar"
