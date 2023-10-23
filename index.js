@@ -37,8 +37,10 @@ function packageNamesFromSpec(spec) {
  * Edit the `yarn.lock` file in `path` to remove resolutions for specific
  * packages.
  *
- * Once resolutions have been removed, they can be recreated by running
- * `yarn install`.
+ * Once resolutions have been removed, they can be recreated by running `yarn
+ * install`. Running this function will have the side effect of making some
+ * formatting changes to existing entries. These will be corrected when `yarn
+ * install` is re-run.
  *
  * @param {string} path
  * @param {string[]} excludePackages
